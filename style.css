@@ -1,3 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 body{
+    /* background-color:black; */
+    color: rgba(255, 255, 255, 1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar styles starts here */
+header{
+    height: 715px;
+    width: 100%;
+    /* border: 10px solid red; */
+    /* background-color: black; */
+    background: linear-gradient(180deg, #111111 100%, rgba(119, 119, 119, 0) 100%);
+    padding-top: 16px;
+}
+.navbar{
+    height: 2.85rem;
+    width:1060px;
+    margin: 0 auto;
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-second-item{
+    display: flex;
+    gap: 2.85rem;
+    margin-right: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 8px;
+
+}
+.nav-first-item{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.nav-second-item p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.span{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    color: white;
+    padding: 9px;
+}
+/* navbar styles ends here */
+
+/* banner styles starts here */
+.banner{
+    height: 36rem;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 5px solid green; */
+    margin-top: 1.9rem;
+}
+.text-div h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 2rem;
+}
+.shape{
+    font-family: "Playwrite CU", cursive;
+    opacity: 0.9;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text-div p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 2rem;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border:none;
+    /* padding: 28px; */
+    height: 54px;
+    width: 224px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.btn-secondary{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
     background-color: black;
+    height: 54px;
+    width: 224px;
+    border: 1px solid gray;
+    border-radius: 42px; 
+}
+/* banner styles ends here */
+
+/* main section styles starts here */
+
+
+
+
+
+/* main section styles ends here */
+
+
+
+
+
+
+
+/* responsive design starts here */
+/* styles for mobile devices */
+
+@media screen and (max-width:576px) {
+    header{
+        height: 923px;
+        width: 100%;
+    }
+    .nav-second-item{
+        display: none;
+    }
+    .i{
+        display: block;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .btn-secondary{
+        margin-top: 23px;
+    }
+    .text-div h1{
+        font-size: 3rem;
+    }
 }
