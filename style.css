@@ -234,6 +234,63 @@ h4{
     font-family: Inter;
     text-align: center;
 }
+/* extra-run styles starts here */
+.extra-run{
+    height: 371px;
+    width: 1060px;
+    margin: 0 auto;
+    /* border: 5px solid blue; */
+    margin-bottom: 120px;
+    background-color:rgb(34, 34, 34) ;
+}
+.run-image{
+    height: 312px;
+    width: 366px;
+    /* border: 10px sollid red; */
+    background-image: url(/images/run.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.run-text h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.run-text h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.run-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.run-text button{
+    height: 44px;
+    width: 224px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    margin-top: 0.5rem;
+}
+/* extra-run styles ends here */
 
 
 
@@ -288,5 +345,8 @@ h4{
         display: grid;
         grid-template-columns:repeat(2,1fr);
         margin-left: 250px;
+    }
+    .extra-run{
+        margin-left:33px;
     }
 }
